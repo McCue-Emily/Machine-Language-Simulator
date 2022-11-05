@@ -107,7 +107,7 @@ The result of the operation must be displayed to the terminal. Your code should 
     
     ***
     
-    *XOR Command:* The XOR command is built into the xorFunc in the commandFunctions.cpp file. The operation name as well as 
+    XOR Command: The XOR command is built into the xorFunc in the commandFunctions.cpp file. The operation name as well as 
     each operand in the command line is passed into this function as parameters. The operands are then formatted and converted 
     to hex values of data type uint32_t by calling the formatHex() function. The bitwise exclusive OR is then performed on 
     these two values and the initial string operands are then formatted for display. All values are then displayed to the 
